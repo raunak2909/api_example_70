@@ -1,6 +1,8 @@
 import 'dart:convert';
 
 import 'package:api_example_70/data_model.dart';
+import 'package:api_example_70/product_page.dart';
+import 'package:api_example_70/users_page.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as httpClient;
 
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: HomePage(),
+      home: UserPage(),
     );
   }
 }
